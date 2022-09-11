@@ -1,0 +1,50 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/97c02f89cd.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/register.css">
+    <title>Login</title>
+</head>
+
+<body>
+   
+    <form action="/login" method="POST">
+        <label class="input-group mb-3">
+            <p class="label-txt">Email</p>
+            <input type="text" name="lemail" id="lemail" class="input" value="" />
+            <div class="line-box">
+                <div class="line"></div>
+            </div>
+        </label>
+        <label class="input-group mb-3">
+            <p class="label-txt">Password</p>
+            <input type="password" name="lemail" id="lemail" class="input" value="" />
+            <div class="line-box">
+                <div class="line"></div>
+            </div>
+        </label>
+        
+        <button type="submit" class="btn login_btn">Login</button>
+        <section class="form__options">
+            <div class="d-flex justify-content-center links">
+                <small>
+                    Don't have an account? <a href="/register" class="ml-2 text-white">Sign Up</a>
+                </small>
+            </div>
+            <div class="d-flex justify-content-center links">
+                <small>
+                    <a href="/forgot" class="text-white">Forgot your password?</a>
+                </small>
+            </div>
+        </section>
+    </form>
+    
+</body>
+
+</html>
